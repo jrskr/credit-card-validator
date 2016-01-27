@@ -72,9 +72,9 @@ int main(){
                     ss1 >> digit1;
                     ss2 >> digit2;
                     int sumOfDigits;
-                    sumOfDigits = digit1 + digit2;                  // adds the digits of the products
+                    sumOfDigits = digit1 + digit2;                  
                     
-                    totalSum = totalSum + sumOfDigits;                  // updates the total sum
+                    totalSum = totalSum + sumOfDigits;                  
                 }
             }
             
@@ -82,8 +82,8 @@ int main(){
                 stringstream oddNumberedChars;
                 oddNumberedChars << creditCardNum.at(z);
                 int oddNumberedDigits;
-                oddNumberedChars >> oddNumberedDigits;                       // converts the odd numbered charcter to integer
-                totalSum = totalSum + oddNumberedDigits;                      // adds the odd numbered characters to the total sum
+                oddNumberedChars >> oddNumberedDigits;                       
+                totalSum = totalSum + oddNumberedDigits;                      
             }
             
             if ((totalSum % 10) == 0){
@@ -152,9 +152,9 @@ int main(){
                     ss1 >> digit1;
                     ss2 >> digit2;
                     int sumOfDigits;
-                    sumOfDigits = digit1 + digit2;                  // adds the digits of the products
+                    sumOfDigits = digit1 + digit2;                  
                     
-                    totalSum = totalSum + sumOfDigits;                  // updates the total sum
+                    totalSum = totalSum + sumOfDigits;                  
                 }
             }
             
@@ -162,8 +162,8 @@ int main(){
                 stringstream oddNumberedChars;
                 oddNumberedChars << creditCardNum.at(z);
                 int oddNumberedDigits;
-                oddNumberedChars >> oddNumberedDigits;                       // converts the odd numbered charcter to integer
-                totalSum = totalSum + oddNumberedDigits;                      // adds the odd numbered characters to the total sum
+                oddNumberedChars >> oddNumberedDigits;                    
+                totalSum = totalSum + oddNumberedDigits;                     
             }
             
             if ((totalSum % 10) == 0){
